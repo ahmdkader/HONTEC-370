@@ -1,0 +1,19 @@
+HONTEC 370 v3.1.7
+
+Verification carried forward from the editing session:
+- Live DOM test: saved manual 98T/4 selection switches to automatic 124T/5 with tolerance off, and 98T/4 with tolerance on, for MD 75 mm and requested gap 3 mm.
+- Arabic/English controls and equal cylinder numeral sizes were checked in DOM tests.
+- All embedded JavaScript parses successfully.
+- PDF export functions tested with the example 75 × 135 mm on 300 mm material. Confirmed repeat 77.7875 mm, cylinder 311.15 mm, after distortion 305.1 mm, distortion 1.9444%, around 4, across 2, gap around 2.7875 mm, gap across 3 mm, used width 273 mm, net width 270 mm, width waste 30 mm, area waste 13.23%.
+- PDF generated from the app report functions, rendered and visually inspected after the latest PDF change.
+- Cylinder-only PDF rendering also checked.
+
+Packaging checks:
+- Hosted index matches the latest standalone except for enabling packaged assets.
+- Service worker cache and app version aligned at v3.1.7.
+- Manifest and service worker asset references verified locally.
+- ZIP contents and integrity checked.
+
+Limit: no end-to-end hosted installation/service-worker test or Android device test was performed.
+
+V3.1.7 verified: 15 shared detail/PDF rows in Arabic and English; same layout SVG geometry with numbering, MD/CD dimensions and arrow; rendered PDF reviewed; live DOM language and tolerance tests pass with no runtime errors.
