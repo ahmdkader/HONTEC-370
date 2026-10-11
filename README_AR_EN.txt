@@ -1,3 +1,6 @@
+v3.1.9: دليل السلندرات يعرض عدد التكرارات ومقاس الريبيت فقط، بدون الجاب أو مطابقة المقاس.
+Cylinder directory now shows repeat count and pitch only, independent of label inputs.
+
 HONTEC 370 — v3.1.8
 
 العربية
