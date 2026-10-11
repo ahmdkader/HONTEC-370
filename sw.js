@@ -1,7 +1,7 @@
-/* Flexo 370 v3.1.7. Keep this file alongside index.html. */
+/* Flexo 370 v3.1.8. Keep this file alongside index.html. */
 'use strict';
 const CACHE_PREFIX = 'flexo370-' + encodeURIComponent(self.registration.scope) + '-';
-const CACHE_NAME = CACHE_PREFIX + 'v3.1.7';
+const CACHE_NAME = CACHE_PREFIX + 'v3.1.8';
 const ROOT = new URL('./',self.location.href).href;
 const INDEX = new URL('index.html',ROOT).href;
 const ASSETS = ['index.html','manifest.json','icon.svg','icon-192.png','icon-512.png','icon-maskable-512.png','apple-touch-icon.png'].map(name=>new URL(name,ROOT).href);

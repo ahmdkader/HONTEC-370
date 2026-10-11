@@ -1,4 +1,4 @@
-HONTEC 370 v3.1.7
+HONTEC 370 v3.1.8
 
 Verification carried forward from the editing session:
 - Live DOM test: saved manual 98T/4 selection switches to automatic 124T/5 with tolerance off, and 98T/4 with tolerance on, for MD 75 mm and requested gap 3 mm.
@@ -17,3 +17,5 @@ Packaging checks:
 Limit: no end-to-end hosted installation/service-worker test or Android device test was performed.
 
 V3.1.7 verified: 15 shared detail/PDF rows in Arabic and English; same layout SVG geometry with numbering, MD/CD dimensions and arrow; rendered PDF reviewed; live DOM language and tolerance tests pass with no runtime errors.
+
+V3.1.8: directory tested without dimensions, with 75 mm MD, cylinder 98T at 4 repeats (77.7875 mm pitch, 2.7875 mm gap), cylinder 124T at 5 repeats (78.74 mm pitch, 3.74 mm gap), overlap rows, tolerance changes, Arabic/English switching, settings count-limit and list changes, and independence from the job selection. Existing details, PDF-generation and tolerance checks still pass. No runtime JavaScript errors in DOM tests.

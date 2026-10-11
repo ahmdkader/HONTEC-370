@@ -1,4 +1,4 @@
-HONTEC 370 — v3.1.7
+HONTEC 370 — v3.1.8
 
 العربية
 - ملفات التطبيق: index.html وmanifest.json وsw.js وجميع الأيقونات في نفس المجلد.
@@ -25,3 +25,7 @@ English
 - PDF values appear directly beside their labels. Width waste is in mm; geometric area waste remains a percentage.
 
 V3.1.7: PDF and calculation details share all 15 rows and language. PDF embeds the same SVG layout as the app, with label numbers, dimension lines, CD axis and direction arrow.
+
+V3.1.8 — دليل السلندرات والتكرارات
+اضغط رقم السليندر في القسم المنفصل أسفل الحساب لعرض التكرارات من 1 إلى الحد المحدد بالإعدادات (13 افتراضيًا). الجدول يعرض مقاس الريبيت والجاب ومطابقة مقاس الاستيكر المدخل. القيم السالبة للجاب تعني تداخلًا. السماحية تؤثر على تقييم المطابقة. التصفح لا يغيّر اختيار سليندر الشغلانة. قائمة الأرقام تتبع إعدادات سلندراتك.
+Independent cylinder directory: select any configured cylinder to see all repeat counts up to the Settings limit, pitch, optional gap and fit status. Browsing does not change the job calculation.
