@@ -1,3 +1,5 @@
+v3.1.11: رجوع لترتيب ومسميات v3.1.9 مع تغيير Actual cylinder gap فقط إلى ريبيت جاب / Repeat Gap.
+
 v3.1.9: دليل السلندرات يعرض عدد التكرارات ومقاس الريبيت فقط، بدون الجاب أو مطابقة المقاس.
 Cylinder directory now shows repeat count and pitch only, independent of label inputs.
 
